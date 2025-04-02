@@ -30,11 +30,11 @@ You can run the Docker container and override the default greeting message using
 `GREETING` environment variable. For example, to run the container with a custom greeting, use:
 
 ```bash
-docker run -p 8081:8081 -e GREETING='Howdy from Docker!' spring-boot-rest-api-toy:latest
+docker run -p 8080:8080 -e GREETING='Howdy from Docker!' spring-boot-rest-api-toy:latest
 ```
 
 Once the container is running, open your browser and navigate to
-[http://localhost:8081/hello](http://localhost:8081/hello) to see your greeting message.
+[http://localhost:8080/hello](http://localhost:8080/hello) to see your greeting message.
 
 > **Note:** If your greeting contains special characters (like an exclamation mark), using single
 > quotes can help avoid shell interpretation issues.
