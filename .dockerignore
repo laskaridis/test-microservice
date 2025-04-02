@@ -1,0 +1,39 @@
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+*.iws
+*.ipr
+
+# Logs
+*.log
+logs/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Test files
+**/test/
+**/tests/
+
+# Documentation
+README.md
+LICENSE
+
+# Git
+.git/
+.gitignore
+
+# Helm
+helm/
+
+# Other
+.env
+.env.*
+*.swp
+*.swo
